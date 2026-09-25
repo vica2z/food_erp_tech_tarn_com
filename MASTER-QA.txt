@@ -1,0 +1,22 @@
+TechTarn Food Processing ERP — Unified Master QA
+
+Guide/User Guide enhancement
+- Shared HowWorks component added: src/how-works.jsx
+- All 15 panels import the shared module guide component: PASS
+- All 15 panel roots render a module-aware “How it works” user guide: PASS
+- Guide content changes with the active module: PASS
+- Guide covers 3 practical steps per module using module-specific workflow rules: PASS
+- Existing Guide Tour remains available in all panels: PASS
+- Responsive How it works popup/floating control added for desktop/tablet/mobile: PASS
+
+Existing unified master checks
+- 15 panel components present: PASS
+- 15 panel styles present: PASS
+- Master login: PASS (static source validation)
+- Panel launcher: PASS (static source validation)
+- ERP Home switcher: PASS (static source validation)
+- Master responsive CSS: PASS (static source validation)
+
+Runtime note
+- Full npm install/build/browser automation was attempted but dependency installation timed out in this environment.
+- Therefore this package is not claimed as live-browser/runtime verified here.
