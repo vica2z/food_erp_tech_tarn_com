@@ -23,3 +23,6 @@ You do not need to run `npm install` yourself. Upload this React project to GitH
 
 ## Validation
 Static source validation confirms all 15 panel components include the shared module-level How It Works component, and the master launcher/login structure is present. A completed local browser/runtime build is not claimed because dependency installation was not completed in this environment.
+
+## Login page panel guide
+The master login now shows all 15 ERP panels with a short purpose, key modules, and dedicated demo email. Users can click any panel card to automatically select that panel's email in the login form. Password for all demo accounts is `Demo@123`.

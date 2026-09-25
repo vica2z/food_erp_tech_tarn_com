@@ -19,3 +19,10 @@ Static validation:
 Vercel deployment:
 The supplied Vercel log confirmed dependency installation and 1588 modules transformed before syntax errors. The errors identified there have been corrected in this version.
 A live Vercel deployment cannot be claimed from this environment until this ZIP is uploaded to GitHub and redeployed.
+
+LOGIN PAGE PANEL GUIDE UPDATE — PASS
+- All 15 panels displayed on the login page
+- Each panel shows purpose, key modules, and demo email
+- Clicking a panel selects its demo email automatically
+- Login picker and panel summary are responsive
+- Demo password remains Demo@123
