@@ -1,11 +1,11 @@
 import React, { useEffect, useMemo, useState } from "react";
 import {
-import HowWorks from "../how-works.jsx";
   Activity, Archive, Bell, Check, ChevronDown, ChevronLeft, ChevronRight,
   ClipboardList, Database, FileClock, Home, KeyRound, LayoutDashboard,
   LockKeyhole, LogOut, Menu, Plus, Search, Settings, ShieldCheck, SlidersHorizontal,
   Trash2, UserCog, Users, X, Edit3
 } from "lucide-react";
+import HowWorks from "../how-works.jsx";
 import "./super-admin.css";
 
 const BRAND = {
